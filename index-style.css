@@ -1,0 +1,241 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 20px;
+    flex: 1;
+}
+
+nav {
+    margin-left: 42%;
+    flex: 3;
+    display: flex;
+}
+
+nav a {
+    font-size: 20px;
+    color: black;
+    padding: 30px 30px 30px 30px;
+    text-decoration: none;
+}
+
+.intro {
+    background-image: url(images/index/mypic.jpg);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 25%;
+    height: 450px;
+    text-align: justify;
+}
+
+.intro h1 {
+    color: white;
+    font-size: 3rem;
+    padding-left: 9rem;
+    padding-top: 5rem;
+}
+
+.box1 {
+    background-color: white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.box2 {
+    background-color: black;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.box1_text {
+    flex: 2;
+}
+
+.box2_text {
+    flex: 2;
+}
+
+.box1_text h2 {
+    font-size: 2rem;
+    text-align: right;
+    padding-right: 9rem;
+    padding-top: 2rem;
+    color: black;
+}
+
+.box1_text p {
+    color: black;
+    text-align: right;
+    padding-top: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+    font-size: 20px;
+}
+
+.box2_text h2 {
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 9rem;
+    padding-top: 2rem;
+    color: white;
+}
+
+.box2_text p {
+    color: white;
+    text-align: left;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-bottom: 4rem;
+    font-size: 20px;
+}
+
+.box1_img {
+    flex: 3;
+}
+
+.box2_img {
+    flex: 3;
+}
+
+.box1_img img {
+    width: 10%;
+    height: 25%;
+    padding-left: 12rem;
+    object-fit: contain;
+}
+
+.box2_img img {
+    width: 15%;
+    height: 30%;
+    padding-left: 39rem;
+    object-fit: contain;
+}
+
+.cards {
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.interests {
+    background-color: white;
+    color: black;
+    height: 500px;
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.interests h2 {
+    font-size: 2rem;
+    padding-top: 20px;
+}
+
+.interests p {
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.interests img {
+    text-align: center;
+    padding-top: 2.5rem;
+    width: 30%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.goals {
+    background-color: black;
+    color: white;
+    height: 500px;
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+
+.goals h2 {
+    font-size: 2rem;
+    padding-top: 20px;
+}
+
+.goals p {
+    padding-top: 50px;
+    font-size: 20px;
+    
+}
+
+.goals img {
+    text-align: center;
+    padding-top: 2.5rem;
+    width: 30%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.thoughts {
+    background-color: black;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.thoughts h2 {
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 7.5rem;
+    padding-top: 2rem;
+    color: white;
+}
+
+.thoughts p {
+    color: white;
+    text-align: left;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-bottom: 4rem;
+    font-size: 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content:space-evenly;
+    height: 100px;
+    background-color: white;
+    align-items: center;
+}
+
+.contact img {
+    padding-top: 30px;
+    padding-right: 5px;
+    padding-bottom: 30px;
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 28px;
+}
+
+
+

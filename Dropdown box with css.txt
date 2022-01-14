@@ -1,0 +1,75 @@
+<header>
+        <div class="logo">
+        </div>
+        <nav>
+            <div class="navbutton">
+            <a href="index.html">Home</a>
+            </div>
+            <div class="navbutton">
+                <a href="#">About Me</a>
+                <div class="dropdown-box">
+                    <div class="navbutton">
+                        <a href="aboutme.html">Early Life</a>
+                    </div>
+                    <div class="navbutton">
+                        <a href="upuntilnow.html">Until Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="navbutton"><a href="education.html">Education</a></div>
+            <div class="navbutton"><a href="interests.html">Interests</a></div>
+            <div class="navbutton"><a href="goals.html">Goals</a></div>
+            <div class="navbutton"><a href="mystories.html">My Stories</a></div>
+        </nav>
+    </header>
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 20px;
+    flex: 1;
+}
+
+nav {
+    margin-left: 30%;
+    flex: 3;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+nav a {
+    font-size: 20px;
+    color: black;
+    padding: 30px 10px 30px 10px;
+    text-decoration: none;
+}
+
+.navbutton {
+    text-align: center;
+    margin-top: 9px;
+    padding: 11px 20px;
+}
+
+.navbutton a {
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.dropdown-box {
+    background-color: lightgray;
+    display: none;
+    position: absolute;
+    z-index: 100;
+}
+
+.navbutton:hover .dropdown-box {
+    display: block;
+}

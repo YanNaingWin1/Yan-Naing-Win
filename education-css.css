@@ -1,0 +1,119 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 20px;
+    flex: 1;
+}
+
+nav {
+    margin-left: 42%;
+    flex: 3;
+    display: flex;
+}
+
+nav a {
+    font-size: 20px;
+    color: black;
+    padding: 30px 30px 30px 30px;
+    text-decoration: none;
+}
+
+.box1 {
+    background-color: black;
+    color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.box1_text {
+    flex: 2;
+}
+
+.box1_text h2 {
+    font-size: 2rem;
+    text-align: right;
+    padding-right: 9rem;
+    padding-top: 2rem;
+    padding-left: 40px;
+}
+
+.box1_text p {
+    text-align: right;
+    padding-top: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+    font-size: 20px;
+}
+
+.box1_img {
+    flex: 3;
+}
+
+.box1_img img {
+    padding-left: 8rem;
+    width: 50%;
+    height: 70%;
+    object-fit: contain;
+}
+
+.box2 {
+    background-color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.box2_text {
+    flex: 2;
+    color: black;
+}
+
+.box2_text h2 {
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 9rem;
+    padding-top: 2rem;
+}
+
+.box2_text p {
+    text-align: left;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-bottom: 4rem;
+    font-size: 20px;
+}
+
+.box2_img {
+    flex: 3;
+    object-fit: contain;
+}
+
+.box2_img img {
+    padding-left: 25rem;
+    object-fit: contain;
+    width: 50%;
+    height: 70%;
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding-top: 28px;
+}
