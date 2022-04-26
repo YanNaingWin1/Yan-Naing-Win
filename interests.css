@@ -20,7 +20,7 @@ header {
 }
 
 nav {
-    margin-left: 42%;
+    margin-left: 35%;
     flex: 3;
     display: flex;
 }
@@ -28,7 +28,7 @@ nav {
 nav a {
     font-size: 20px;
     color: black;
-    padding: 30px 30px 30px 30px;
+    padding: 30px 20px 30px 30px;
     text-decoration: none;
 }
 
@@ -47,6 +47,79 @@ nav a {
     display: flex;
     justify-content:space-evenly;
     text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+#slideshow {
+    overflow: hidden;
+    height: 400px;
+    width: 350px;
+    margin-left: 220px;
+    margin-right: 90px;
+    justify-content: center;
+}
+
+#slideshow1 {
+    overflow: hidden;
+    height: 400px;
+    width: 350px;
+    margin-left: 100px;
+    margin-right: 200px;
+    justify-content: center;
+}
+
+#slideshow2 {
+    overflow: hidden;
+    height: 400px;
+    width: 350px;
+    margin-left: 220px;
+    margin-right: 90px;;
+    justify-content: center;
+}
+
+#slideshow3 {
+    overflow: hidden;
+    height: 400px;
+    width: 350px;
+    margin-left: 100px;
+    margin-right: 200px;
+    justify-content: center;
+}
+
+.slide {
+    float: left;
+    height: 400px;
+    width: 350px;
+}
+
+.slide-wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    object-fit: contain;
+    width: calc(350px * 4);
+    animation: slide 10s ease infinite;
+}
+
+@keyframes slide {
+    /* Calculate the margin-left for
+      each of the slides */
+      20% {
+        margin-left: 0px;
+      }
+      40% {
+        margin-left: calc(-350px * 1);
+      }
+      60% {
+        margin-left: calc(-350px * 2);
+      }
+      80% {
+        margin-left: calc(-350px * 3);
+      }
 }
 
 .img1 {

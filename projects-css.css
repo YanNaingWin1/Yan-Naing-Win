@@ -1,0 +1,161 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 20px;
+    flex: 1;
+}
+
+nav {
+    margin-left: 35%;
+    flex: 3;
+    display: flex;
+}
+
+nav a {
+    font-size: 20px;
+    color: black;
+    padding: 30px 10px 30px 30px;
+    text-decoration: none;
+}
+
+.box1 {
+    background-color: black;
+    color: white;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.box1_text {
+    flex: 1;
+}
+
+.box1_text h2 {
+    font-size: 2rem;
+    text-align: right;
+    padding-right: 9rem;
+    padding-top: 2rem;
+    padding-left: 40px;
+}
+
+.box1_text p {
+    text-align: right;
+    padding-top: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+    font-size: 20px;
+    line-height: 2em;
+}
+
+.box2 {
+    background-color: white;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.box2_text {
+    flex: 2;
+    color: black;
+}
+
+.box2_text h2 {
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 9rem;
+    padding-top: 2rem;
+}
+
+.box2_text p {
+    text-align: left;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-bottom: 4rem;
+    font-size: 20px;
+}
+
+#slideshow {
+    overflow: hidden;
+    height: 400px;
+    width: 500px;
+    margin-left: 220px;
+    margin-right: 90px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+#slideshow1 {
+    overflow: hidden;
+    height: 400px;
+    width: 500px;
+    margin-left: 220px;
+    margin-right: 90px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+#slideshow2 {
+    overflow: hidden;
+    height: 400px;
+    width: 350px;
+    margin-left: 120px;
+    margin-right: 200px;
+    justify-content: center;
+}
+
+.slide {
+    float: left;
+    height: 400px;
+    width: 500px;
+}
+
+.slide-wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    object-fit: contain;
+    width: calc(500px * 4);
+    animation: slide 10s ease infinite;
+}
+
+@keyframes slide {
+    /* Calculate the margin-left for
+      each of the slides */
+      20% {
+        margin-left: 0px;
+      }
+      40% {
+        margin-left: calc(-500px * 1);
+      }
+      60% {
+        margin-left: calc(-500px * 2);
+      }
+      80% {
+        margin-left: calc(-500px * 3);
+      }
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding-top: 28px;
+}

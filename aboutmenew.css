@@ -1,0 +1,155 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 20px;
+    flex: 1;
+}
+
+nav {
+    margin-left: 35%;
+    flex: 3;
+    display: flex;
+}
+
+nav a {
+    font-size: 20px;
+    color: black;
+    padding: 30px 20px 30px 30px;
+    text-decoration: none;
+}
+
+.up-timeline {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.down-timeline {
+    width: 90.1%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    padding-left: 9.5em;
+    margin-top: -10px;
+}
+
+.up-box {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    margin-left: 70px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.up-box h2 {
+    font-size: 2em;
+    text-decoration: underline;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.up-box p {
+    font-size: 1em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.timeline-circles {
+    background-color: darkgray;
+    width: 100%;
+    display: flex;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border: 4px solid red;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 2;
+    margin-top: -10px;
+    margin-left: 125px;
+}
+
+.down-box {
+    margin-left: 70px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 135px;
+    height: 150px;
+}
+
+.my-info {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+}
+
+.info1 {
+    /* flex:1; */
+    background-color: white;
+    color: black;
+    width: 60%;
+    height: 450px;
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.info1 h2 {
+    margin: 1em 1em 1em 1em;
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.info2 h2 {
+    margin: 1em 1em 1.2em 1em;
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.info2 {
+    /* flex:1; */
+    background-color: black;
+    color: white;
+    width: 60%;
+    height: 450px;
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 28px;
+}
