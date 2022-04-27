@@ -47,17 +47,18 @@ nav a {
 .box1_text h2 {
     font-size: 2rem;
     text-align: right;
-    padding-right: 9rem;
+    padding-right: 5rem;
     padding-top: 2rem;
     padding-left: 40px;
 }
 
 .box1_text p {
     text-align: right;
-    padding-top: 4rem;
+    padding-top: 3rem;
     padding-right: 4rem;
     padding-bottom: 4rem;
     font-size: 20px;
+    line-height: 2rem;
 }
 
 .box1_img {
@@ -92,10 +93,11 @@ nav a {
 
 .box2_text p {
     text-align: left;
-    padding-top: 4rem;
+    padding-top: 2rem;
     padding-left: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
     font-size: 20px;
+    line-height: 2rem;
 }
 
 .box2_img {

@@ -32,16 +32,6 @@ nav a {
     text-decoration: none;
 }
 
-.intro {
-    height: 100px;
-    text-align: center;
-}
-
-.intro h2 {
-    padding-top: 1rem;
-    font-size: 3rem;
-}
-
 .cards {
     background-color:white;
     display: flex;
@@ -176,11 +166,11 @@ nav a {
 }
 
 .txt1 p {
-    padding-top: 30px;
+    padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
     font-size: 20px;
-    line-height: 2.5rem;
+    line-height: 2rem;
 }
 
 .txt2 {
@@ -192,19 +182,19 @@ nav a {
 }
 
 .txt2 h2 {
-    padding-top: 20px;
+    padding-top: 30px;
     text-align: center;
     padding-bottom: 20px;
     font-size: 2rem;
 }
 
 .txt2 p {
-    padding-top: 60px;
+    padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 10px;
     font-size: 20px;
-    line-height: 2.5rem;
+    line-height: 2rem;
 }
 
 footer {
