@@ -24,71 +24,48 @@
     </header>
 
     <div class="box1">
-        <div id="slideshow">
-            <div class="slide-wrapper">
-                <div class="slide">
-                    <img src="images/index/goal.JPG" style="width:70%">
-                </div>
-                <div class="slide">
-                    <img src="images/index/hobby.PNG" style="height:80%">
-                </div>
-                <div class="slide">
-                    <img src="images/index/goal_bg1.jpg" style="width:70%">
-                </div>
-                <div class="slide">
-                    <img src="images/index/MISAC20.jpg" style="width:70%">
-                </div>
-            </div>
-        </div>
         <div class="box1_text">
-            <h2>International Language and Business Center (2005-2006)</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur placeat doloribus distinctio architecto suscipit minus veniam voluptate necessitatibus quas natus. Veniam provident odit dolore corrupti voluptatum perspiciatis at nisi eius?</p>
-        </div>
-    </div>
-
-    <div class="box2">
-        <div class="box2_text">
-            <h2>BEPPS 3 Bahan (2006 - 2012)</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur placeat doloribus distinctio architecto suscipit minus veniam voluptate necessitatibus quas natus. Veniam provident odit dolore corrupti voluptatum perspiciatis at nisi eius?</p>
-        </div>
-        <div id="slideshow1">
-            <div class="slide-wrapper">
-                <div class="slide">
-                    <img src="images/index/goal.JPG" style="width:70%">
-                </div>
-                <div class="slide">
-                    <img src="images/index/hobby.PNG" style="height:80%">
-                </div>
-                <div class="slide">
-                    <img src="images/index/goal_bg1.jpg" style="width:70%">
-                </div>
-                <div class="slide">
-                    <img src="images/index/MISAC20.jpg" style="width:70%">
+            <h2>MediQuest (Oct 2021 - ) [C#, Unity]</h2>
+        </div>    
+        <div class="showcase">
+            <div id="slideshow">
+                <div class="slide-wrapper">
+                    <div class="slide">
+                        <img src="images/index/goal.JPG" style="width:70%">
+                    </div>
+                    <div class="slide">
+                        <img src="images/index/hobby.PNG" style="height:80%">
+                    </div>
+                    <div class="slide">
+                        <img src="images/index/goal_bg1.jpg" style="width:70%">
+                    </div>
+                    <div class="slide">
+                        <img src="images/index/MISAC20.jpg" style="width:70%">
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="box1">
-        <div id="slideshow2">
-            <div class="slide-wrapper">
-                <div class="slide">
-                    <img src="images/index/goal.JPG" style="width:70%">
-                </div>
-                <div class="slide">
-                    <img src="images/index/hobby.PNG" style="height:80%">
-                </div>
-                <div class="slide">
-                    <img src="images/index/goal_bg1.jpg" style="width:70%">
-                </div>
-                <div class="slide">
-                    <img src="images/index/MISAC20.jpg" style="width:70%">
-                </div>
+            <div class="vid">
+                <iframe width="450" height="375" src="https://youtube.com/embed/whklIhXrc0U"></iframe>
             </div>
         </div>
-        <div class="box1_text">
-            <h2>BEHS 1 Dagon (2012 - 2013)</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur placeat doloribus distinctio architecto suscipit minus veniam voluptate necessitatibus quas natus. Veniam provident odit dolore corrupti voluptatum perspiciatis at nisi eius?</p>
+        <div class="box1_intro">
+            <div class="box1_text">
+                <p>I joined a team called "CodeBlue" at the beginning of the semester to gain some insight into game development. The game was halfway through the production, and they were working on a medical game where the user gets to play as an intern doctor whose task is to diagnose patients. I worked as a programmer to mainly take care of the coding related to the new features, as well as upgrading the exisiting code. We recently won the "Game of the Year" award at the UBC Game Development voted by several judges in the industry. Here are a few things that I have done so far.</p>
+            </div>
+        </div>
+        <div class="box1_description">
+            <div class="box1_text">
+                <p>
+                <u>Redesigned the dialogue system of the game</u>
+                <br>When I first worked on the dialogue system, it was just a simple 1D array storing all the dialogues. With the introduction of the save/load mechanism and more storylines coming up, the leader and I decided to come up with a hierarchical dialogue system which allows dialogues to act as checkpoints, thus users can pick up from where they left off. I wrote a small algorithm that allows the programmers to input the storyline and let the program sort out how they can be stored as dialogues in the hiearachy. Storing in a hiearachy meant that when we switch scenes, it allows dialogue to be temporarily saved and thus, can continue the game from the last scene. Also, when a player quits and resumes again, the hiearachy can retrieve the last checkpoint.
+                </p>
+            </div>
+            <div class="box1_text">
+                <p>
+                <u>Patient Documentation</u>
+                <br>I worked on two aspects of patient documentation; a patient chart and a test chart. A patient chart involved different sectors which are related to other parts of the game. For example, a function of patient chart is to order tests for patients which is done via a test chart. Actions from test chart have to be stored correctly so the doctor can order the correct tests. This whole process required understanding of the relationship between different components of the game and made me to read all the code related to the charts. The same thing applied when I had to extract data from the patient to fill up the charts. 
+                </p>
+            </div>
         </div>
     </div>
 
