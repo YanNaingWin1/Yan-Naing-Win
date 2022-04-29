@@ -142,20 +142,10 @@ nav a {
     font-size: 2em;
 }
 
-.info1 h2 {
-    margin: 1em 1em 1.5em 1em;
-    font-size: 2em;
-}
-
 .info1 p {
     margin: 1em 1em 1.5em 1em;
     font-size: 1.3em;
     line-height: 2em;
-}
-
-.info2 h2 {
-    margin: 1em 1em 2em 1em;
-    font-size: 2em;
 }
 
 .info2 {
@@ -169,6 +159,11 @@ nav a {
     margin-top: 25px;
     margin-bottom: 25px;
     text-align: center;
+}
+
+.info2 h2 {
+    margin: 1em 1em 2em 1em;
+    font-size: 2em;
 }
 
 .info2 progress {
