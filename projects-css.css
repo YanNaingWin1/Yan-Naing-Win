@@ -35,7 +35,14 @@ nav a {
 .box1 {
     background-color: black;
     color: white;
-    height: 1300px;
+    height: 1250px;
+    align-items: center;
+}
+
+.box2 {
+    background-color: white;
+    color: black;
+    height: 1350px;
     align-items: center;
 }
 
@@ -79,21 +86,31 @@ nav a {
     padding-top: 3rem;
     padding-right: 9rem;
     padding-left: 2rem;
-    /* padding-bottom: 1rem; */
     font-size: 20px;
     line-height: 2em;
 }
 
+.box1_text ul {
+    text-align: left;
+    padding-left: 3.5rem;
+    line-height: 3rem;
+    font-size: 20px;
+}
+
+.box1_text ul li {
+    list-style-type: disc;
+}
+
 .vid iframe {
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 #slideshow {
     overflow: hidden;
     height: 400px;
-    width: 500px;
-    margin-left: 220px;
-    margin-right: 90px;
+    width: 856px;
+    margin-left: 100px;
+    margin-right: -10px;
     margin-bottom: 30px;
     justify-content: center;
 }
@@ -101,29 +118,28 @@ nav a {
 #slideshow1 {
     overflow: hidden;
     height: 400px;
-    width: 500px;
-    margin-left: 220px;
+    width: 900px;
+    margin-left:28em;
     margin-right: 90px;
-    margin-bottom: 30px;
+    margin-bottom: -20px;
+    margin-top: 20px;
     justify-content: center;
+    align-content: center;
 }
 
-#slideshow2 {
-    overflow: hidden;
-    height: 400px;
-    width: 350px;
-    margin-left: 120px;
-    margin-right: 200px;
-    justify-content: center;
-}
-
-.slide {
+#slideshow .slide {
     float: left;
     height: 400px;
-    width: 500px;
+    width: 856px;
 }
 
-.slide-wrapper {
+#slideshow1 .slide {
+    float: left;
+    height: 500px;
+    width: 1460px;
+}
+
+#slideshow .slide-wrapper {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -131,8 +147,20 @@ nav a {
     margin-bottom: 30px;
     justify-content: center;
     object-fit: contain;
-    width: calc(500px * 4);
+    width: calc(856px * 4);
     animation: slide 10s ease infinite;
+}
+
+#slideshow1 .slide-wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    object-fit: contain;
+    width: calc(1460px * 4);
+    animation: slide1 15s ease infinite;
 }
 
 @keyframes slide {
@@ -142,20 +170,37 @@ nav a {
         margin-left: 0px;
       }
       40% {
-        margin-left: calc(-500px * 1);
+        margin-left: calc(-856px * 1);
       }
       60% {
-        margin-left: calc(-500px * 2);
+        margin-left: calc(-856px * 2);
       }
       80% {
-        margin-left: calc(-500px * 3);
+        margin-left: calc(-856px * 3);
+      }
+}
+
+@keyframes slide1 {
+    /* Calculate the margin-left for
+      each of the slides */
+      20% {
+        margin-left: 0px;
+      }
+      40% {
+        margin-left: calc(-1460px * 1);
+      }
+      60% {
+        margin-left: calc(-1460px * 2);
+      }
+      80% {
+        margin-left: calc(-1460px * 3);
       }
 }
 
 footer {
     height: 50px;
     text-align: center;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     padding-top: 28px;
 }
