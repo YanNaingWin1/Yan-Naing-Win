@@ -74,6 +74,35 @@ nav a {
     padding-bottom: 1rem;
 }
 
+.up-box-special {
+    background-image: url("images/aboutme/my\ cat.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px 355px;
+    background-position: 50% 30%;
+    width: 150px;
+    height: 150px;
+    margin-left: 70px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.up-box-special h2 {
+    font-size: 2em;
+    text-decoration: underline;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.up-box-special p {
+    font-size: 1em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color:white;
+}
+
 .timeline-circles {
     background-color: darkgray;
     width: 100%;
