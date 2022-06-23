@@ -1,5 +1,5 @@
 # Yan-Naing-Win
-My personal website
+# My personal website
 Hey everyone! This is just a little website about myself and maybe things you would want to know about me.
 I have worked on building websites for quite some time and this is my 3rd time crafting a web. 
 The main reason why I did this was because I wanted to polish my HTML and CSS and not stay far away from it, so I do not forget easily. Plus, it's always great to have your own website isn't it?
