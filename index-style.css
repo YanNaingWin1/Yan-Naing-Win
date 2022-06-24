@@ -48,6 +48,32 @@ nav a {
     font-size: 3rem;
     padding-left: 9rem;
     padding-top: 5rem;
+    animation: slide-right 2s;
+}
+
+@keyframes slide-right {
+    from {
+        opacity: 0.2;
+        /* line-height: 200px; */
+        transform: translateX(-150px);
+    }
+    to {
+        opacity: 1;
+        /* line-height: 48px; */
+        transform: translateX(0px);
+    }
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
 }
 
 .box1 {
@@ -92,6 +118,7 @@ nav a {
     padding-bottom: 4rem;
     font-size: 20px;
     line-height: 1.5em;
+    position: relative;
 }
 
 .box2_text a {
@@ -268,6 +295,3 @@ footer {
     color: white;
     padding-top: 28px;
 }
-
-
-
