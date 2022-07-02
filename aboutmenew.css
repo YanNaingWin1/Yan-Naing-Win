@@ -41,7 +41,7 @@ nav a {
 }
 
 .down-timeline {
-    width: 90.1%;
+    width: 90%;
     height: 200px;
     background-color: black;
     display: flex;
@@ -109,14 +109,28 @@ nav a {
     display: flex;
 }
 
+.timeline-circles img {
+    width: 70px;
+    height: 40px;
+    margin-top: -15px;
+    position: relative;
+    margin-right: -75px;
+}
+
+#myCar {
+    position: absolute;
+    cursor: move;
+    z-index: 2;
+}
+
 .circle {
+    position: relative;
     width: 20px;
     height: 20px;
     background-color: yellow;
     border: 4px solid red;
-    top: 15px;
     border-radius: 50%;
-    z-index: 2;
+    z-index: 1;
     margin-top: -10px;
     margin-left: 125px;
 }
